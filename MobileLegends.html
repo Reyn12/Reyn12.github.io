@@ -470,7 +470,7 @@
                         </div>
 
                         <div class="col-lg-4 mt-3">
-                            <div class="list-group shadow list-nominal">
+                            <div href="" class="list-group shadow list-nominal">
                                 <label class="option_item" for="15">
                                     <input type="radio" name="nominal" id="15" class="checkbox">
                                     <div class="option_inner p-3">
@@ -547,23 +547,32 @@
                                 </div>
                                 <div class="row row-cols-2 row-cols-md-3 p-1">
                                     <div class="col-lg-4 p-1">
-                                        <div class="list-group1 h-50">
-                                            <input type="radio" name="paymentMethod" id="paymentMethod-bca" value="bca">
-                                            <label for="paymentMethod-bca" class="list-group-item">
-                                                <div class="info-top">
-                                                    <div>
-                                                        <img src="assets/logo-bca.jpg">
+                                        <div class="list-group shadow payment">
+                                            <label class="payment_item" for="a">
+                                                <input type="radio" name="payment" id="a" class="checkbox">
+                                                <div class="payment_inner p-3">
+                                                    <div class="tickmark"></div>
+                                                    <div class="img mb-3">
+                                                        <img style="width:45px;" src="assets/logo-bca.jpg">
                                                     </div>
-                                                    <b id="payment"></b>
-                                                </div>
-                                                <div class="info-bottom">
-                                                    Bank Central Asia (BCA)
+                                                    <div class="name" style="font-size: 12px">Bank Central Asia (BCA)</div>
                                                 </div>
                                             </label>
                                         </div>
                                     </div>
                                     <div class="col-lg-4 p-1">
-                                        <div class="list-group1 h-50" id="hapuslogo">
+                                        <div class="list-group shadow payment">
+                                            <label class="payment_item" for="b">
+                                                <input type="radio" name="payment" id="b" class="checkbox">
+                                                <div class="payment_inner p-3">
+                                                    <div class="img mb-3">
+                                                        <img style="width:45px;" src="assets/logo-bni.jpg">
+                                                    </div>
+                                                    <div class="name" style="font-size: 12px">Bank Negara Indonesia (BNI)</div>
+                                                </div>
+                                            </label>
+                                        </div>
+                                        <!-- <div class="list-group1 h-50" id="hapuslogo">
                                             <input type="radio" name="paymentMethod" id="paymentMethod-cekmutasicoid-bni" value="cekmutasicoid-bni">
                                             <label for="paymentMethod-cekmutasicoid-bni" class="list-group-item">
                                                 <div class="info-top">
@@ -577,7 +586,7 @@
                                                     Bank Negara Indonesia (BNI)
                                                 </div>
                                             </label>
-                                        </div>
+                                        </div> -->
                                     </div>
                                 </div>
                                 </div>
