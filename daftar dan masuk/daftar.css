@@ -8,19 +8,22 @@
   background-color: var(--secondaryColor);
 }
 
+.bg-putih {
+  background-color: #eaeaea !important;
+}
+
 .secondaryColor {
   color: var(--secondaryColor);
 }
 
 body {
-  background-color: #eaeaea;
   font-family: "Poppins", sans-serif;
   color: #2d2d2d;
   font-size: 14px;
 }
 
 .form {
-  margin-top: 150px;
+  margin-top: 100px;
   width: 350px;
   border-radius: 3px;
   border: 1px solid #c5c5c5;
@@ -29,6 +32,7 @@ body {
 .form-header {
   border-bottom: 1px solid #c5c5c5;
   font-weight: 400;
+  background-color: #eaeaea;
 }
 
 .form-main {

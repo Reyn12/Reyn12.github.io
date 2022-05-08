@@ -81,8 +81,7 @@ body {
 }
 
 .nav-link:hover {
-  background-color: var(--secondaryColor);
-  color: #fff !important;
+  background-color: rgb(255, 251, 243);
 }
 /* end navbar */
 

@@ -1,0 +1,16 @@
+/* navbar */
+.nav-link {
+  border-radius: 7px;
+  transition: 0.3s;
+  background-color: #fffaf5;
+}
+
+.nav-link-login {
+  background-color: var(--secondaryColor) !important;
+  color: #fff !important;
+}
+
+.nav-link:hover {
+  background-color: rgb(255, 251, 243);
+}
+/* end navbar */
