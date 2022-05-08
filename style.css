@@ -23,6 +23,7 @@ body {
   font-size: 14px;
 }
 
+/* start responsive */
 @media screen and (min-width: 994px) {
   .form-control {
     width: 350px;
@@ -34,6 +35,47 @@ body {
     text-align: center;
   }
 }
+
+/* layar medium */
+@media screen and (max-width: 768px) {
+  .carousel-inner {
+    height: 300px !important;
+  }
+
+  .carousel-item img {
+    height: 300px !important;
+  }
+}
+
+/* layar mobile */
+@media screen and (max-width: 576px) {
+  .carousel-inner {
+    height: 180px !important;
+  }
+
+  .carousel-item img {
+    height: 180px !important;
+  }
+}
+/* end responsive */
+
+/* navbar */
+.nav-link-active {
+  background-color: var(--secondaryColor) !important;
+  color: #fff !important;
+}
+.nav-link {
+  border-radius: 7px;
+  border: 1px solid var(--secondaryColor);
+  transition: 0.3s;
+  background-color: #fff0e3;
+}
+
+.nav-link:hover {
+  background-color: var(--secondaryColor);
+  color: #fff !important;
+}
+/* end navbar */
 
 /* Style Categori */
 .img-categori {
@@ -53,6 +95,7 @@ body {
 .carousel {
   margin-top: 90px;
 }
+
 /* end carousel */
 
 /* Style Produk */
@@ -75,6 +118,22 @@ body {
   border: none;
 }
 /* Style Produk */
+.item-kategori-active {
+  border-radius: 7px;
+  background-color: var(--secondaryColor);
+}
+
+.item-kategori {
+  border-radius: 7px;
+  border: 2px solid var(--secondaryColor);
+  transition: 0.3s;
+  background-color: #fff0e3;
+}
+
+.item-kategori:hover {
+  background-color: var(--secondaryColor);
+  color: #fff;
+}
 
 /* card */
 

@@ -128,10 +128,8 @@ body {
   overflow: hidden;
 }
 
-.payment_item .checkbox:checked ~ .payment_inner{
+.payment_item .checkbox:checked ~ .payment_inner {
   background-color: #0077b5 !important;
   color: #fff;
 }
 /* end payment */
-
-
