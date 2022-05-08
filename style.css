@@ -56,6 +56,15 @@ body {
   .carousel-item img {
     height: 180px !important;
   }
+
+  .item-kategori {
+    font-size: 14px !important;
+    margin-left: 10px !important;
+  }
+
+  .item-kategori-active {
+    font-size: 14px !important;
+  }
 }
 /* end responsive */
 
@@ -100,8 +109,8 @@ body {
 
 /* Style Produk */
 .card a img {
-  margin-top: -30px;
-  border-radius: 7px;
+  margin-top: -30px !important;
+  border-radius: 7px !important;
 }
 .card:hover {
   border: 1px solid #2d2d2d;
