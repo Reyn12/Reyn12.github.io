@@ -50,11 +50,11 @@ body {
 /* layar mobile */
 @media screen and (max-width: 576px) {
   .carousel-inner {
-    height: 180px !important;
+    height: 160px !important;
   }
 
   .carousel-item img {
-    height: 180px !important;
+    height: 160px !important;
   }
 
   .item-kategori {
@@ -151,3 +151,7 @@ body {
 /* card */
 
 /* end card */
+
+/* contact us */
+
+/* end */

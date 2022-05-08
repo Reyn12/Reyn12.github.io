@@ -4,6 +4,10 @@
   --secondaryColor: #ff7b00;
 }
 
+.secondaryColor {
+  color: var(--secondaryColor);
+}
+
 body {
   background-color: #eaeaea;
   font-family: "Poppins", sans-serif;
@@ -46,6 +50,12 @@ body {
 
 /* Akhir Navbar*/
 
+/* BreadCrumb */
+.BreadCrumb {
+  margin-top: 100px !important;
+}
+/* akhir BreadCrumb */
+
 /*Gamabr produk*/
 .row-produk {
   background-color: #fff;
@@ -58,7 +68,7 @@ body {
 
 /*Garis nama*/
 .garis-nama {
-  border-bottom: 2px solid #2d2d2d;
+  border: 2px solid var(--secondaryColor);
   margin-top: 10px;
   margin-bottom: 25px;
 }
@@ -129,7 +139,7 @@ body {
 }
 
 .option_item .checkbox:checked ~ .option_inner {
-  background-color: #aaa !important;
+  background-color: var(--secondaryColor) !important;
   /* color: #fff; */
 
   /* background-color: rgb(206, 206, 0) !important;
@@ -149,7 +159,7 @@ body {
 }
 
 .payment_item .checkbox:checked ~ .payment_inner {
-  background-color: #0077b5 !important;
+  background-color: var(--secondaryColor) !important;
   color: #fff;
 }
 /* end payment */
