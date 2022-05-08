@@ -60,15 +60,15 @@ body {
 /* end responsive */
 
 /* navbar */
-.nav-link-active {
-  background-color: var(--secondaryColor) !important;
-  color: #fff !important;
-}
 .nav-link {
   border-radius: 7px;
-  border: 1px solid var(--secondaryColor);
   transition: 0.3s;
-  background-color: #fff0e3;
+  background-color: #fffaf5;
+}
+
+.nav-link-login {
+  background-color: var(--secondaryColor) !important;
+  color: #fff !important;
 }
 
 .nav-link:hover {
@@ -99,6 +99,10 @@ body {
 /* end carousel */
 
 /* Style Produk */
+.card a img {
+  margin-top: -30px;
+  border-radius: 7px;
+}
 .card:hover {
   border: 1px solid #2d2d2d;
 }
@@ -125,7 +129,7 @@ body {
 
 .item-kategori {
   border-radius: 7px;
-  border: 2px solid var(--secondaryColor);
+  border: 1px solid var(--secondaryColor);
   transition: 0.3s;
   background-color: #fff0e3;
 }
