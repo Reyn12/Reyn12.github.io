@@ -133,6 +133,14 @@ body {
   opacity: 0;
 }
 
+.option_inner {
+  cursor: pointer;
+}
+
+.payment_inner {
+  cursor: pointer;
+}
+
 .list-nominal {
   border-radius: 5px;
   overflow: hidden;
