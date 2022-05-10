@@ -20,21 +20,7 @@ body {
 }
 
 /*Navbar*/
-.nav-link {
-  border-radius: 7px;
-  transition: 0.3s;
-  background-color: #fffaf5;
-}
-
-.nav-link-login {
-  background-color: var(--secondaryColor) !important;
-  color: #fff !important;
-}
-
-.nav-link:hover {
-  background-color: var(--secondaryColor);
-  color: #fff !important;
-}
+/* end navbar */
 
 @media screen and (min-width: 994px) {
   .form-control {
