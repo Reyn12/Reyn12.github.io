@@ -80,6 +80,14 @@ body {
   background-color: #fff;
   margin: 0%;
 }
+
+.nav-link {
+  color: var(--secondaryColor);
+}
+
+.kategori-active {
+  background-color: var(--secondaryColor) !important;
+}
 /* Style Categori */
 
 /* carousel */
