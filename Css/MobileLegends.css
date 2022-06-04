@@ -20,21 +20,7 @@ body {
 }
 
 /*Navbar*/
-.nav-link {
-  border-radius: 7px;
-  transition: 0.3s;
-  background-color: #fffaf5;
-}
-
-.nav-link-login {
-  background-color: var(--secondaryColor) !important;
-  color: #fff !important;
-}
-
-.nav-link:hover {
-  background-color: var(--secondaryColor);
-  color: #fff !important;
-}
+/* end navbar */
 
 @media screen and (min-width: 994px) {
   .form-control {
@@ -135,10 +121,24 @@ body {
 
 .option_inner {
   cursor: pointer;
+  transition: 0.2s;
+}
+
+.option_inner:hover {
+  border: inset 0.5px solid var(--secondaryColor);
+  background-color: #ffb26b;
+  color: #fff;
+}
+
+.payment_inner:hover {
+  border: inset 0.5px solid var(--secondaryColor);
+  background-color: #ffb26b;
+  color: #fff;
 }
 
 .payment_inner {
   cursor: pointer;
+  transition: 0.2s;
 }
 
 .list-nominal {
@@ -147,8 +147,8 @@ body {
 }
 
 .option_item .checkbox:checked ~ .option_inner {
-  background-color: var(--secondaryColor) !important;
-  /* color: #fff; */
+  background-color: #ff8e24 !important;
+  color: #fff;
 
   /* background-color: rgb(206, 206, 0) !important;
   color: #fff; */
@@ -167,7 +167,8 @@ body {
 }
 
 .payment_item .checkbox:checked ~ .payment_inner {
-  background-color: var(--secondaryColor) !important;
+  background-color: #ff8e24 !important;
+
   color: #fff;
 }
 /* end payment */

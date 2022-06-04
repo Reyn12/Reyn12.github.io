@@ -31,9 +31,6 @@ body {
 }
 
 @media screen and (max-width: 994px) {
-  .navbar-nav {
-    text-align: center;
-  }
 }
 
 /* layar medium */
@@ -69,20 +66,6 @@ body {
 /* end responsive */
 
 /* navbar */
-.nav-link {
-  border-radius: 7px;
-  transition: 0.3s;
-  background-color: #fffaf5;
-}
-
-.nav-link-login {
-  background-color: var(--secondaryColor) !important;
-  color: #fff !important;
-}
-
-.nav-link:hover {
-  background-color: rgb(255, 251, 243);
-}
 /* end navbar */
 
 /* Style Categori */
@@ -96,6 +79,14 @@ body {
 .row-container {
   background-color: #fff;
   margin: 0%;
+}
+
+.nav-link {
+  color: var(--secondaryColor);
+}
+
+.kategori-active {
+  background-color: var(--secondaryColor) !important;
 }
 /* Style Categori */
 
