@@ -1,16 +1,16 @@
 
-const bank = document.getElementById('bank');
-const tfBank = bank.textContent; // biar presist 
+// const bank = document.getElementById('bank');
+// const tfBank = bank.textContent; // biar presist 
 
-const bank18 = document.getElementById('18');
-bank18.addEventListener('click', () => {
-    harga += 2016000;
+// const bank18 = document.getElementById('18');
+// bank18.addEventListener('click', () => {
+//     harga += 2016000;
 
-    if (bank18.checked) {
-        bank.textContent = tfBank + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
-    }
-})
+//     if (bank18.checked) {
+//         bank.textContent = tfBank + 'Rp.' + harga;
+//         harga = 0; // set ulang biar g nimpa 
+//     }
+// })
 
 // BCA PAYMENT
 const bca = document.getElementById('bca');
