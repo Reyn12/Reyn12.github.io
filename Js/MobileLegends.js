@@ -391,3 +391,20 @@ nominal_bni18.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
     }
 })
+
+// VIRTUAL ACCOUNT
+const virtualAcc = document.getElementById('virtualAccount');
+const maybankVa = document.getElementById('maybankVa');
+
+const textNominalMaybankVa = maybankVa.textContent; // biar presist
+
+const maybank_Va = document.getElementById('1');
+maybank_Va.addEventListener('click', () => {
+    harga += 117000;
+
+    if (maybank_Va.checked) {
+        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        harga = 0; // set ulang biar g nimpa 
+    }
+})
