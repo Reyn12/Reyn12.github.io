@@ -168,7 +168,6 @@ body {
 
 .payment_item .checkbox:checked ~ .payment_inner {
   background-color: #ff8e24 !important;
-
   color: #fff;
 }
 /* end payment */

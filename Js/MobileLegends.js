@@ -1,31 +1,24 @@
-
-// const bank = document.getElementById('bank');
+// transfer bank
+const bank = document.getElementById('bank');
+const bca = document.getElementById('bca');
 // const tfBank = bank.textContent; // biar presist 
 
-// const bank18 = document.getElementById('18');
-// bank18.addEventListener('click', () => {
-//     harga += 2016000;
-
-//     if (bank18.checked) {
-//         bank.textContent = tfBank + 'Rp.' + harga;
-//         harga = 0; // set ulang biar g nimpa 
-//     }
-// })
-
 // BCA PAYMENT
-const bca = document.getElementById('bca');
+const nominal_bca = document.getElementById('nominal_bca');
 
 let harga = 0;
-const textBca = bca.textContent; // biar presist 
+const textnominal_bca = nominal_bca.textContent; // biar presist 
 
 const item18 = document.getElementById('18');
 item18.addEventListener('click', () => {
     harga += 2016000;
 
     if (item18.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
+    
 })
 
 const item17 = document.getElementById('17');
@@ -33,8 +26,9 @@ item17.addEventListener('click', () => {
     harga += 1209600;
 
     if (item17.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -43,8 +37,9 @@ item16.addEventListener('click', () => {
     harga += 973500;
 
     if (item16.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -53,8 +48,9 @@ item15.addEventListener('click', () => {
     harga += 328500;
 
     if (item15.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -63,8 +59,9 @@ item14.addEventListener('click', () => {
     harga += 274600;
 
     if (item14.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -73,8 +70,9 @@ item13.addEventListener('click', () => {
     harga += 228700;
 
     if (item13.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -83,8 +81,9 @@ item12.addEventListener('click', () => {
     harga += 204600;
 
     if (item12.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -93,8 +92,9 @@ item11.addEventListener('click', () => {
     harga += 168900;
 
     if (item11.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -103,8 +103,9 @@ item10.addEventListener('click', () => {
     harga += 164800;
 
     if (item10.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -113,8 +114,9 @@ item9.addEventListener('click', () => {
     harga += 134600;
 
     if (item9.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -123,8 +125,9 @@ item8.addEventListener('click', () => {
     harga += 103400;
 
     if (item8.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -133,8 +136,9 @@ item7.addEventListener('click', () => {
     harga += 84100;
 
     if (item7.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -143,8 +147,9 @@ item6.addEventListener('click', () => {
     harga += 61800;
 
     if (item6.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -153,8 +158,9 @@ item5.addEventListener('click', () => {
     harga += 42700;
 
     if (item5.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -163,8 +169,9 @@ item4.addEventListener('click', () => {
     harga += 21300;
 
     if (item4.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -173,8 +180,9 @@ item3.addEventListener('click', () => {
     harga += 134800;
 
     if (item3.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -183,8 +191,9 @@ item2.addEventListener('click', () => {
     harga += 305800;
 
     if (item2.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
@@ -193,191 +202,192 @@ item1.addEventListener('click', () => {
     harga += 117000;
 
     if (item1.checked) {
-        bca.textContent = textBca + 'Rp.' + harga;
-        harga = 0; // set ulang biar g nimpa 
+        nominal_bca.textContent = textnominal_bca + 'Rp.' + harga;
+        bank.textContent = textnominal_bca + 'Rp.' + harga;
+        harga = 0;
     }
 })
 
 // BNI PAYMENT
-const bni = document.getElementById('bni');
-const textBni = bni.textContent; // biar presist
+const nominal_bni = document.getElementById('nominal_bni');
+const textnominal_bni = nominal_bni.textContent; // biar presist
 
-const bni1 = document.getElementById('1');
-bni1.addEventListener('click', () => {
+const nominal_bni1 = document.getElementById('1');
+nominal_bni1.addEventListener('click', () => {
     harga += 117000;
 
-    if (bni1.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni1.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni2 = document.getElementById('2');
-bni2.addEventListener('click', () => {
+const nominal_bni2 = document.getElementById('2');
+nominal_bni2.addEventListener('click', () => {
     harga += 305800;
 
-    if (bni2.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni2.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni3 = document.getElementById('3');
-bni3.addEventListener('click', () => {
+const nominal_bni3 = document.getElementById('3');
+nominal_bni3.addEventListener('click', () => {
     harga += 134800;
 
-    if (bni3.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni3.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni4 = document.getElementById('4');
-bni4.addEventListener('click', () => {
+const nominal_bni4 = document.getElementById('4');
+nominal_bni4.addEventListener('click', () => {
     harga += 21300;
 
-    if (bni4.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni4.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni5 = document.getElementById('5');
-bni5.addEventListener('click', () => {
+const nominal_bni5 = document.getElementById('5');
+nominal_bni5.addEventListener('click', () => {
     harga += 42700;
 
-    if (bni5.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni5.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni6 = document.getElementById('6');
-bni6.addEventListener('click', () => {
+const nominal_bni6 = document.getElementById('6');
+nominal_bni6.addEventListener('click', () => {
     harga += 61800;
 
-    if (bni6.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni6.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni7 = document.getElementById('7');
-bni7.addEventListener('click', () => {
+const nominal_bni7 = document.getElementById('7');
+nominal_bni7.addEventListener('click', () => {
     harga += 84100;
 
-    if (bni7.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni7.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni8 = document.getElementById('8');
-bni8.addEventListener('click', () => {
+const nominal_bni8 = document.getElementById('8');
+nominal_bni8.addEventListener('click', () => {
     harga += 103400;
 
-    if (bni8.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni8.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni9 = document.getElementById('9');
-bni9.addEventListener('click', () => {
+const nominal_bni9 = document.getElementById('9');
+nominal_bni9.addEventListener('click', () => {
     harga += 134600;
 
-    if (bni9.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni9.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni10 = document.getElementById('10');
-bni10.addEventListener('click', () => {
+const nominal_bni10 = document.getElementById('10');
+nominal_bni10.addEventListener('click', () => {
     harga += 164800;
 
-    if (bni10.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni10.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni11 = document.getElementById('11');
-bni11.addEventListener('click', () => {
+const nominal_bni11 = document.getElementById('11');
+nominal_bni11.addEventListener('click', () => {
     harga += 168900;
 
-    if (bni11.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni11.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni12 = document.getElementById('12');
-bni12.addEventListener('click', () => {
+const nominal_bni12 = document.getElementById('12');
+nominal_bni12.addEventListener('click', () => {
     harga += 204600;
 
-    if (bni12.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni12.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni13 = document.getElementById('13');
-bni13.addEventListener('click', () => {
+const nominal_bni13 = document.getElementById('13');
+nominal_bni13.addEventListener('click', () => {
     harga += 228700;
 
-    if (bni13.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni13.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni14 = document.getElementById('14');
-bni14.addEventListener('click', () => {
+const nominal_bni14 = document.getElementById('14');
+nominal_bni14.addEventListener('click', () => {
     harga += 274600;
 
-    if (bni14.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni14.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni15 = document.getElementById('15');
-bni15.addEventListener('click', () => {
+const nominal_bni15 = document.getElementById('15');
+nominal_bni15.addEventListener('click', () => {
     harga += 328500;
 
-    if (bni15.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni15.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni16 = document.getElementById('16');
-bni16.addEventListener('click', () => {
+const nominal_bni16 = document.getElementById('16');
+nominal_bni16.addEventListener('click', () => {
     harga += 973500;
 
-    if (bni16.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni16.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni17 = document.getElementById('17');
-bni17.addEventListener('click', () => {
+const nominal_bni17 = document.getElementById('17');
+nominal_bni17.addEventListener('click', () => {
     harga += 1209600;
 
-    if (bni17.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni17.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
 
-const bni18 = document.getElementById('18');
-bni18.addEventListener('click', () => {
+const nominal_bni18 = document.getElementById('18');
+nominal_bni18.addEventListener('click', () => {
     harga += 2016000;
 
-    if (bni18.checked) {
-        bni.textContent = textBni + 'Rp.' + harga;
+    if (nominal_bni18.checked) {
+        nominal_bni.textContent = textnominal_bni + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
