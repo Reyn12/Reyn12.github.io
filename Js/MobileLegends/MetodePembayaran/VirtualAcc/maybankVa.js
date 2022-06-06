@@ -7,11 +7,11 @@ const textNominalMaybankVa = maybankVa.textContent; // biar presist
 // 1
 const maybank_Va1 = document.getElementById('1');
 maybank_Va1.addEventListener('click', () => {
-    harga += 120000;
+    harga = '120.000';
 
     if (maybank_Va1.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -19,11 +19,11 @@ maybank_Va1.addEventListener('click', () => {
 // 2
 const maybank_Va2 = document.getElementById('2');
 maybank_Va2.addEventListener('click', () => {
-    harga += 320000;
+    harga = '320.000';
 
     if (maybank_Va2.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -31,11 +31,11 @@ maybank_Va2.addEventListener('click', () => {
 // 3
 const maybank_Va3 = document.getElementById('3');
 maybank_Va3.addEventListener('click', () => {
-    harga += 140500;
+    harga = '140.500';
 
     if (maybank_Va3.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -43,11 +43,11 @@ maybank_Va3.addEventListener('click', () => {
 // 4
 const maybank_Va4 = document.getElementById('4');
 maybank_Va4.addEventListener('click', () => {
-    harga += 117000;
+    harga = '22.600';
 
     if (maybank_Va4.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -55,11 +55,11 @@ maybank_Va4.addEventListener('click', () => {
 // 5
 const maybank_Va5 = document.getElementById('5');
 maybank_Va5.addEventListener('click', () => {
-    harga += 117000;
+    harga = '45.800';
 
     if (maybank_Va5.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -67,11 +67,11 @@ maybank_Va5.addEventListener('click', () => {
 // 6
 const maybank_Va6 = document.getElementById('6');
 maybank_Va6.addEventListener('click', () => {
-    harga += 117000;
+    harga = '65.700';
 
     if (maybank_Va6.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -79,11 +79,11 @@ maybank_Va6.addEventListener('click', () => {
 // 7
 const maybank_Va7 = document.getElementById('7');
 maybank_Va7.addEventListener('click', () => {
-    harga += 117000;
+    harga = '85.600';
 
     if (maybank_Va7.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -91,11 +91,11 @@ maybank_Va7.addEventListener('click', () => {
 // 8
 const maybank_Va8 = document.getElementById('8');
 maybank_Va8.addEventListener('click', () => {
-    harga += 117000;
+    harga = '108.900';
 
     if (maybank_Va8.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -103,11 +103,11 @@ maybank_Va8.addEventListener('click', () => {
 // 9
 const maybank_Va9 = document.getElementById('9');
 maybank_Va9.addEventListener('click', () => {
-    harga += 117000;
+    harga = '138.760';
 
     if (maybank_Va9.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -115,11 +115,11 @@ maybank_Va9.addEventListener('click', () => {
 // 10
 const maybank_Va10 = document.getElementById('10');
 maybank_Va10.addEventListener('click', () => {
-    harga += 117000;
+    harga = '168.200';
 
     if (maybank_Va10.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -127,11 +127,11 @@ maybank_Va10.addEventListener('click', () => {
 // 11
 const maybank_Va11 = document.getElementById('11');
 maybank_Va11.addEventListener('click', () => {
-    harga += 117000;
+    harga = '170.800';
 
     if (maybank_Va11.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -139,11 +139,11 @@ maybank_Va11.addEventListener('click', () => {
 // 12
 const maybank_Va12 = document.getElementById('12');
 maybank_Va12.addEventListener('click', () => {
-    harga += 117000;
+    harga = '208.600';
 
     if (maybank_Va12.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -151,11 +151,11 @@ maybank_Va12.addEventListener('click', () => {
 // 13
 const maybank_Va13 = document.getElementById('13');
 maybank_Va13.addEventListener('click', () => {
-    harga += 117000;
+    harga = '235.400';
 
     if (maybank_Va13.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -163,11 +163,11 @@ maybank_Va13.addEventListener('click', () => {
 // 14
 const maybank_Va14 = document.getElementById('14');
 maybank_Va14.addEventListener('click', () => {
-    harga += 117000;
+    harga = '278.800';
 
     if (maybank_Va14.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -175,11 +175,11 @@ maybank_Va14.addEventListener('click', () => {
 // 15
 const maybank_Va15 = document.getElementById('15');
 maybank_Va15.addEventListener('click', () => {
-    harga += 117000;
+    harga = '332.860';
 
     if (maybank_Va15.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -187,11 +187,11 @@ maybank_Va15.addEventListener('click', () => {
 // 16
 const maybank_Va16 = document.getElementById('16');
 maybank_Va16.addEventListener('click', () => {
-    harga += 117000;
+    harga = '978.500';
 
     if (maybank_Va16.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -199,11 +199,11 @@ maybank_Va16.addEventListener('click', () => {
 // 17
 const maybank_Va17 = document.getElementById('17');
 maybank_Va17.addEventListener('click', () => {
-    harga += 117000;
+    harga = '1.248.100';
 
     if (maybank_Va17.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -211,11 +211,11 @@ maybank_Va17.addEventListener('click', () => {
 // 18
 const maybank_Va18 = document.getElementById('18');
 maybank_Va18.addEventListener('click', () => {
-    harga += 117000;
+    harga = "2.075.700";
 
     if (maybank_Va18.checked) {
-        maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalMaybankVa + 'Rp.' + harga;
+        maybankVa.textContent = textNominalMaybankVa + 'Rp ' + harga;
+        virtualAcc.textContent = textNominalMaybankVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
