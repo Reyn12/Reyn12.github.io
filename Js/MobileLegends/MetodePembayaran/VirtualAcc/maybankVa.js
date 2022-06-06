@@ -7,7 +7,7 @@ const textNominalMaybankVa = maybankVa.textContent; // biar presist
 // 1
 const maybank_Va1 = document.getElementById('1');
 maybank_Va1.addEventListener('click', () => {
-    harga += 117000;
+    harga += 120000;
 
     if (maybank_Va1.checked) {
         maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
@@ -19,7 +19,7 @@ maybank_Va1.addEventListener('click', () => {
 // 2
 const maybank_Va2 = document.getElementById('2');
 maybank_Va2.addEventListener('click', () => {
-    harga += 117000;
+    harga += 320000;
 
     if (maybank_Va2.checked) {
         maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
@@ -31,7 +31,7 @@ maybank_Va2.addEventListener('click', () => {
 // 3
 const maybank_Va3 = document.getElementById('3');
 maybank_Va3.addEventListener('click', () => {
-    harga += 117000;
+    harga += 140500;
 
     if (maybank_Va3.checked) {
         maybankVa.textContent = textNominalMaybankVa + 'Rp.' + harga;
