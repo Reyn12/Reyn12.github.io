@@ -1,7 +1,8 @@
-// permataVa
-// all
-const permataVa = document.getElementById('permataVa');
+// Virtual Account
+// let virtualAcc = document.getElementById('virtualAccount');
 
+// permataVa
+const permataVa = document.getElementById('permataVa');
 const textNominalpermataVa = permataVa.textContent; // biar presist
 
 // 1
@@ -11,7 +12,6 @@ permata_Va.addEventListener('click', () => {
 
     if (permata_Va.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -23,7 +23,6 @@ permata_Va2.addEventListener('click', () => {
 
     if (permata_Va2.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -35,7 +34,6 @@ permata_Va3.addEventListener('click', () => {
 
     if (permata_Va3.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -47,7 +45,6 @@ permata_Va4.addEventListener('click', () => {
 
     if (permata_Va4.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -59,7 +56,6 @@ permata_Va5.addEventListener('click', () => {
 
     if (permata_Va5.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -71,7 +67,6 @@ permata_Va6.addEventListener('click', () => {
 
     if (permata_Va6.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -83,7 +78,6 @@ permata_Va7.addEventListener('click', () => {
 
     if (permata_Va7.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -95,7 +89,6 @@ permata_Va8.addEventListener('click', () => {
 
     if (permata_Va8.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -107,7 +100,6 @@ permata_Va9.addEventListener('click', () => {
 
     if (permata_Va9.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -119,7 +111,6 @@ permata_Va10.addEventListener('click', () => {
 
     if (permata_Va10.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -131,7 +122,6 @@ permata_Va11.addEventListener('click', () => {
 
     if (permata_Va11.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -143,7 +133,6 @@ permata_Va12.addEventListener('click', () => {
 
     if (permata_Va12.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -155,7 +144,6 @@ permata_Va13.addEventListener('click', () => {
 
     if (permata_Va13.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -167,7 +155,6 @@ permata_Va14.addEventListener('click', () => {
 
     if (permata_Va14.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -179,7 +166,6 @@ permata_Va15.addEventListener('click', () => {
 
     if (permata_Va15.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -191,7 +177,6 @@ permata_Va16.addEventListener('click', () => {
 
     if (permata_Va16.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -203,7 +188,6 @@ permata_Va17.addEventListener('click', () => {
 
     if (permata_Va17.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -215,7 +199,6 @@ permata_Va18.addEventListener('click', () => {
 
     if (permata_Va18.checked) {
         permataVa.textContent = textNominalpermataVa + 'Rp.' + harga;
-        virtualAcc.textContent = textNominalpermataVa + 'Rp.' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
