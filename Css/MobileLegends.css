@@ -192,47 +192,47 @@ body {
 /* payment responsive */
 @media screen and (max-width: 576px) {
   #nominal_bca {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   #nominal_bni {
-    font-size: 11px;
+    font-size: 9px;
   }
 
   #bcaVa {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   #bniVa {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   #briVa {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   #bsiVa {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   #cimbVa {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   #mandiriVa {
-    font-size: 11px;
+    font-size: 9px;
 }
   
   #maybankVa {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   #permataVa {
-    font-size: 11px;
+    font-size: 9px;
   }
   
   #sinarmasVa {
-    font-size: 11px;
+    font-size: 9px;
   
   }
 }
