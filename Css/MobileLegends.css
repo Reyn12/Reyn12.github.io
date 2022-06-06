@@ -127,13 +127,11 @@ body {
 .option_inner:hover {
   border: inset 0.5px solid var(--secondaryColor);
   background-color: #ffb26b;
-  color: #fff;
 }
 
 .payment_inner:hover {
   border: inset 0.5px solid var(--secondaryColor);
   background-color: #ffb26b;
-  color: #fff;
 }
 
 .payment_inner {
