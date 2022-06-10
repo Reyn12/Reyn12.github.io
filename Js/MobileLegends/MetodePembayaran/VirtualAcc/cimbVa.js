@@ -4,7 +4,7 @@ const cimbVa = document.getElementById('cimbVa');
 const textNominalcimbVa = cimbVa.textContent; // biar presist
 
 // 1
-const cimb_Va = document.getElementById('1');
+const cimb_Va = document.getElementById('ml_starlight');
 cimb_Va.addEventListener('click', () => {
     harga = '120.000';
 
@@ -15,7 +15,7 @@ cimb_Va.addEventListener('click', () => {
 })
 
 // 2
-const cimb_Va2 = document.getElementById('2');
+const cimb_Va2 = document.getElementById('ml_starlightPlus');
 cimb_Va2.addEventListener('click', () => {
     harga = '320.000';
 
@@ -26,7 +26,7 @@ cimb_Va2.addEventListener('click', () => {
 })
 
 // 3
-const cimb_Va3 = document.getElementById('3');
+const cimb_Va3 = document.getElementById('ml_twilight');
 cimb_Va3.addEventListener('click', () => {
     harga = '140.500';
 
@@ -37,7 +37,7 @@ cimb_Va3.addEventListener('click', () => {
 })
 
 // 4
-const cimb_Va4 = document.getElementById('4');
+const cimb_Va4 = document.getElementById('ml_86');
 cimb_Va4.addEventListener('click', () => {
     harga = '22.600';
 
@@ -48,7 +48,7 @@ cimb_Va4.addEventListener('click', () => {
 })
 
 // 5
-const cimb_Va5 = document.getElementById('5');
+const cimb_Va5 = document.getElementById('ml_172');
 cimb_Va5.addEventListener('click', () => {
     harga = '45.800';
 
@@ -59,7 +59,7 @@ cimb_Va5.addEventListener('click', () => {
 })
 
 // 6
-const cimb_Va6 = document.getElementById('6');
+const cimb_Va6 = document.getElementById('ml_257');
 cimb_Va6.addEventListener('click', () => {
     harga = '65.700';
 
@@ -70,7 +70,7 @@ cimb_Va6.addEventListener('click', () => {
 })
 
 // 7
-const cimb_Va7 = document.getElementById('7');
+const cimb_Va7 = document.getElementById('ml_344');
 cimb_Va7.addEventListener('click', () => {
     harga = '85.600';
 
@@ -81,7 +81,7 @@ cimb_Va7.addEventListener('click', () => {
 })
 
 // 8
-const cimb_Va8 = document.getElementById('8');
+const cimb_Va8 = document.getElementById('ml_429');
 cimb_Va8.addEventListener('click', () => {
     harga = '108.900';
 
@@ -92,7 +92,7 @@ cimb_Va8.addEventListener('click', () => {
 })
 
 // 9
-const cimb_Va9 = document.getElementById('9');
+const cimb_Va9 = document.getElementById('ml_556');
 cimb_Va9.addEventListener('click', () => {
     harga = '138.760';
 
@@ -103,7 +103,7 @@ cimb_Va9.addEventListener('click', () => {
 })
 
 // 10
-const cimb_Va10 = document.getElementById('10');
+const cimb_Va10 = document.getElementById('ml_706');
 cimb_Va10.addEventListener('click', () => {
     harga = '168.200';
 
@@ -114,7 +114,7 @@ cimb_Va10.addEventListener('click', () => {
 })
 
 // 11
-const cimb_Va11 = document.getElementById('11');
+const cimb_Va11 = document.getElementById('ml_720');
 cimb_Va11.addEventListener('click', () => {
     harga = '170.800';
 
@@ -125,7 +125,7 @@ cimb_Va11.addEventListener('click', () => {
 })
 
 // 12
-const cimb_Va12 = document.getElementById('12');
+const cimb_Va12 = document.getElementById('ml_878');
 cimb_Va12.addEventListener('click', () => {
     harga = '208.600';
 
@@ -136,7 +136,7 @@ cimb_Va12.addEventListener('click', () => {
 })
 
 // 13
-const cimb_Va13 = document.getElementById('13');
+const cimb_Va13 = document.getElementById('ml_977');
 cimb_Va13.addEventListener('click', () => {
     harga = '235.400';
 
@@ -147,7 +147,7 @@ cimb_Va13.addEventListener('click', () => {
 })
 
 // 14
-const cimb_Va14 = document.getElementById('14');
+const cimb_Va14 = document.getElementById('ml_1163');
 cimb_Va14.addEventListener('click', () => {
     harga = '278.800';
 
@@ -158,7 +158,7 @@ cimb_Va14.addEventListener('click', () => {
 })
 
 // 15
-const cimb_Va15 = document.getElementById('15');
+const cimb_Va15 = document.getElementById('ml_1412');
 cimb_Va15.addEventListener('click', () => {
     harga = '332.860';
 
@@ -169,7 +169,7 @@ cimb_Va15.addEventListener('click', () => {
 })
 
 // 16
-const cimb_Va16 = document.getElementById('16');
+const cimb_Va16 = document.getElementById('ml_4394');
 cimb_Va16.addEventListener('click', () => {
     harga = '978.500';
 
@@ -180,7 +180,7 @@ cimb_Va16.addEventListener('click', () => {
 })
 
 // 17
-const cimb_Va17 = document.getElementById('17');
+const cimb_Va17 = document.getElementById('ml_5534');
 cimb_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
@@ -191,7 +191,7 @@ cimb_Va17.addEventListener('click', () => {
 })
 
 // 18
-const cimb_Va18 = document.getElementById('18');
+const cimb_Va18 = document.getElementById('ml_9302');
 cimb_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 

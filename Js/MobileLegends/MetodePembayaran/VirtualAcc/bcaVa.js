@@ -4,7 +4,7 @@ const bcaVa = document.getElementById('bcaVa');
 const textNominalbcaVa = bcaVa.textContent; // biar presist
 
 // 1
-const bca_Va = document.getElementById('1');
+const bca_Va = document.getElementById('ml_starlight');
 bca_Va.addEventListener('click', () => {
     harga = '120.000';
 
@@ -15,7 +15,7 @@ bca_Va.addEventListener('click', () => {
 })
 
 // 2
-const bca_Va2 = document.getElementById('2');
+const bca_Va2 = document.getElementById('ml_starlightPlus');
 bca_Va2.addEventListener('click', () => {
     harga = '320.000';
 
@@ -26,7 +26,7 @@ bca_Va2.addEventListener('click', () => {
 })
 
 // 3
-const bca_Va3 = document.getElementById('3');
+const bca_Va3 = document.getElementById('ml_twilight');
 bca_Va3.addEventListener('click', () => {
     harga = '140.500';
 
@@ -37,7 +37,7 @@ bca_Va3.addEventListener('click', () => {
 })
 
 // 4
-const bca_Va4 = document.getElementById('4');
+const bca_Va4 = document.getElementById('ml_86');
 bca_Va4.addEventListener('click', () => {
     harga = '22.600';
 
@@ -48,7 +48,7 @@ bca_Va4.addEventListener('click', () => {
 })
 
 // 5
-const bca_Va5 = document.getElementById('5');
+const bca_Va5 = document.getElementById('ml_172');
 bca_Va5.addEventListener('click', () => {
     harga = '45.800';
 
@@ -59,7 +59,7 @@ bca_Va5.addEventListener('click', () => {
 })
 
 // 6
-const bca_Va6 = document.getElementById('6');
+const bca_Va6 = document.getElementById('ml_257');
 bca_Va6.addEventListener('click', () => {
     harga = '65.700';
 
@@ -70,7 +70,7 @@ bca_Va6.addEventListener('click', () => {
 })
 
 // 7
-const bca_Va7 = document.getElementById('7');
+const bca_Va7 = document.getElementById('ml_344');
 bca_Va7.addEventListener('click', () => {
     harga = '85.600';
 
@@ -81,7 +81,7 @@ bca_Va7.addEventListener('click', () => {
 })
 
 // 8
-const bca_Va8 = document.getElementById('8');
+const bca_Va8 = document.getElementById('ml_429');
 bca_Va8.addEventListener('click', () => {
     harga = '108.900';
 
@@ -92,7 +92,7 @@ bca_Va8.addEventListener('click', () => {
 })
 
 // 9
-const bca_Va9 = document.getElementById('9');
+const bca_Va9 = document.getElementById('ml_556');
 bca_Va9.addEventListener('click', () => {
     harga = '138.760';
 
@@ -103,7 +103,7 @@ bca_Va9.addEventListener('click', () => {
 })
 
 // 10
-const bca_Va10 = document.getElementById('10');
+const bca_Va10 = document.getElementById('ml_706');
 bca_Va10.addEventListener('click', () => {
     harga = '168.200';
 
@@ -114,7 +114,7 @@ bca_Va10.addEventListener('click', () => {
 })
 
 // 11
-const bca_Va11 = document.getElementById('11');
+const bca_Va11 = document.getElementById('ml_720');
 bca_Va11.addEventListener('click', () => {
     harga = '170.800';
 
@@ -125,7 +125,7 @@ bca_Va11.addEventListener('click', () => {
 })
 
 // 12
-const bca_Va12 = document.getElementById('12');
+const bca_Va12 = document.getElementById('ml_878');
 bca_Va12.addEventListener('click', () => {
     harga = '208.600';
 
@@ -136,7 +136,7 @@ bca_Va12.addEventListener('click', () => {
 })
 
 // 13
-const bca_Va13 = document.getElementById('13');
+const bca_Va13 = document.getElementById('ml_977');
 bca_Va13.addEventListener('click', () => {
     harga = '235.400';
 
@@ -147,7 +147,7 @@ bca_Va13.addEventListener('click', () => {
 })
 
 // 14
-const bca_Va14 = document.getElementById('14');
+const bca_Va14 = document.getElementById('ml_1163');
 bca_Va14.addEventListener('click', () => {
     harga = '278.800';
 
@@ -158,7 +158,7 @@ bca_Va14.addEventListener('click', () => {
 })
 
 // 15
-const bca_Va15 = document.getElementById('15');
+const bca_Va15 = document.getElementById('ml_1412');
 bca_Va15.addEventListener('click', () => {
     harga = '332.860';
 
@@ -169,7 +169,7 @@ bca_Va15.addEventListener('click', () => {
 })
 
 // 16
-const bca_Va16 = document.getElementById('16');
+const bca_Va16 = document.getElementById('ml_4394');
 bca_Va16.addEventListener('click', () => {
     harga = '978.500';
 
@@ -180,7 +180,7 @@ bca_Va16.addEventListener('click', () => {
 })
 
 // 17
-const bca_Va17 = document.getElementById('17');
+const bca_Va17 = document.getElementById('ml_5534');
 bca_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
@@ -191,7 +191,7 @@ bca_Va17.addEventListener('click', () => {
 })
 
 // 18
-const bca_Va18 = document.getElementById('18');
+const bca_Va18 = document.getElementById('ml_9302');
 bca_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 

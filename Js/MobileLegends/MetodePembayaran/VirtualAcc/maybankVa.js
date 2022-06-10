@@ -5,7 +5,7 @@ const maybankVa = document.getElementById('maybankVa');
 const textNominalMaybankVa = maybankVa.textContent; // biar presist
 
 // 1
-const maybank_Va1 = document.getElementById('1');
+const maybank_Va1 = document.getElementById('ml_starlight');
 maybank_Va1.addEventListener('click', () => {
     harga = '120.000';
 
@@ -17,7 +17,7 @@ maybank_Va1.addEventListener('click', () => {
 })
 
 // 2
-const maybank_Va2 = document.getElementById('2');
+const maybank_Va2 = document.getElementById('ml_starlightPlus');
 maybank_Va2.addEventListener('click', () => {
     harga = '320.000';
 
@@ -29,7 +29,7 @@ maybank_Va2.addEventListener('click', () => {
 })
 
 // 3
-const maybank_Va3 = document.getElementById('3');
+const maybank_Va3 = document.getElementById('ml_twilight');
 maybank_Va3.addEventListener('click', () => {
     harga = '140.500';
 
@@ -41,7 +41,7 @@ maybank_Va3.addEventListener('click', () => {
 })
 
 // 4
-const maybank_Va4 = document.getElementById('4');
+const maybank_Va4 = document.getElementById('ml_86');
 maybank_Va4.addEventListener('click', () => {
     harga = '22.600';
 
@@ -53,7 +53,7 @@ maybank_Va4.addEventListener('click', () => {
 })
 
 // 5
-const maybank_Va5 = document.getElementById('5');
+const maybank_Va5 = document.getElementById('ml_172');
 maybank_Va5.addEventListener('click', () => {
     harga = '45.800';
 
@@ -65,7 +65,7 @@ maybank_Va5.addEventListener('click', () => {
 })
 
 // 6
-const maybank_Va6 = document.getElementById('6');
+const maybank_Va6 = document.getElementById('ml_257');
 maybank_Va6.addEventListener('click', () => {
     harga = '65.700';
 
@@ -77,7 +77,7 @@ maybank_Va6.addEventListener('click', () => {
 })
 
 // 7
-const maybank_Va7 = document.getElementById('7');
+const maybank_Va7 = document.getElementById('ml_344');
 maybank_Va7.addEventListener('click', () => {
     harga = '85.600';
 
@@ -89,7 +89,7 @@ maybank_Va7.addEventListener('click', () => {
 })
 
 // 8
-const maybank_Va8 = document.getElementById('8');
+const maybank_Va8 = document.getElementById('ml_429');
 maybank_Va8.addEventListener('click', () => {
     harga = '108.900';
 
@@ -101,7 +101,7 @@ maybank_Va8.addEventListener('click', () => {
 })
 
 // 9
-const maybank_Va9 = document.getElementById('9');
+const maybank_Va9 = document.getElementById('ml_556');
 maybank_Va9.addEventListener('click', () => {
     harga = '138.760';
 
@@ -113,7 +113,7 @@ maybank_Va9.addEventListener('click', () => {
 })
 
 // 10
-const maybank_Va10 = document.getElementById('10');
+const maybank_Va10 = document.getElementById('ml_706');
 maybank_Va10.addEventListener('click', () => {
     harga = '168.200';
 
@@ -125,7 +125,7 @@ maybank_Va10.addEventListener('click', () => {
 })
 
 // 11
-const maybank_Va11 = document.getElementById('11');
+const maybank_Va11 = document.getElementById('ml_720');
 maybank_Va11.addEventListener('click', () => {
     harga = '170.800';
 
@@ -137,7 +137,7 @@ maybank_Va11.addEventListener('click', () => {
 })
 
 // 12
-const maybank_Va12 = document.getElementById('12');
+const maybank_Va12 = document.getElementById('ml_878');
 maybank_Va12.addEventListener('click', () => {
     harga = '208.600';
 
@@ -149,7 +149,7 @@ maybank_Va12.addEventListener('click', () => {
 })
 
 // 13
-const maybank_Va13 = document.getElementById('13');
+const maybank_Va13 = document.getElementById('ml_977');
 maybank_Va13.addEventListener('click', () => {
     harga = '235.400';
 
@@ -161,7 +161,7 @@ maybank_Va13.addEventListener('click', () => {
 })
 
 // 14
-const maybank_Va14 = document.getElementById('14');
+const maybank_Va14 = document.getElementById('ml_1163');
 maybank_Va14.addEventListener('click', () => {
     harga = '278.800';
 
@@ -173,7 +173,7 @@ maybank_Va14.addEventListener('click', () => {
 })
 
 // 15
-const maybank_Va15 = document.getElementById('15');
+const maybank_Va15 = document.getElementById('ml_1412');
 maybank_Va15.addEventListener('click', () => {
     harga = '332.860';
 
@@ -185,7 +185,7 @@ maybank_Va15.addEventListener('click', () => {
 })
 
 // 16
-const maybank_Va16 = document.getElementById('16');
+const maybank_Va16 = document.getElementById('ml_4394');
 maybank_Va16.addEventListener('click', () => {
     harga = '978.500';
 
@@ -197,7 +197,7 @@ maybank_Va16.addEventListener('click', () => {
 })
 
 // 17
-const maybank_Va17 = document.getElementById('17');
+const maybank_Va17 = document.getElementById('ml_5534');
 maybank_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
@@ -209,7 +209,7 @@ maybank_Va17.addEventListener('click', () => {
 })
 
 // 18
-const maybank_Va18 = document.getElementById('18');
+const maybank_Va18 = document.getElementById('ml_9302');
 maybank_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 
