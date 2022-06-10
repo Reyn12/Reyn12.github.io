@@ -8,7 +8,7 @@ const nominal_bca = document.getElementById('nominal_bca');
 let harga = 0;
 const textnominal_bca = nominal_bca.textContent; // biar presist 
 
-const item18 = document.getElementById('18');
+const item18 = document.getElementById('ml_9302');
 item18.addEventListener('click', () => {
     harga = '2.016.000';
 
@@ -20,7 +20,7 @@ item18.addEventListener('click', () => {
     
 })
 
-const item17 = document.getElementById('17');
+const item17 = document.getElementById('ml_5534');
 item17.addEventListener('click', () => {
     harga = '1.209.600';
 
@@ -31,7 +31,7 @@ item17.addEventListener('click', () => {
     }
 })
 
-const item16 = document.getElementById('16');
+const item16 = document.getElementById('ml_4394');
 item16.addEventListener('click', () => {
     harga = '973.500';
 
@@ -42,7 +42,7 @@ item16.addEventListener('click', () => {
     }
 })
 
-const item15 = document.getElementById('15');
+const item15 = document.getElementById('ml_1412');
 item15.addEventListener('click', () => {
     harga = '328.500';
 
@@ -53,7 +53,7 @@ item15.addEventListener('click', () => {
     }
 })
 
-const item14 = document.getElementById('14');
+const item14 = document.getElementById('ml_1163');
 item14.addEventListener('click', () => {
     harga = '274.600';
 
@@ -64,7 +64,7 @@ item14.addEventListener('click', () => {
     }
 })
 
-const item13 = document.getElementById('13');
+const item13 = document.getElementById('ml_977');
 item13.addEventListener('click', () => {
     harga = '228.700';
 
@@ -75,7 +75,7 @@ item13.addEventListener('click', () => {
     }
 })
 
-const item12 = document.getElementById('12');
+const item12 = document.getElementById('ml_878');
 item12.addEventListener('click', () => {
     harga = '204.600';
 
@@ -86,7 +86,7 @@ item12.addEventListener('click', () => {
     }
 })
 
-const item11 = document.getElementById('11');
+const item11 = document.getElementById('ml_720');
 item11.addEventListener('click', () => {
     harga = '168.900';
 
@@ -97,7 +97,7 @@ item11.addEventListener('click', () => {
     }
 })
 
-const item10 = document.getElementById('10');
+const item10 = document.getElementById('ml_706');
 item10.addEventListener('click', () => {
     harga = '164.800';
 
@@ -108,7 +108,7 @@ item10.addEventListener('click', () => {
     }
 })
 
-const item9 = document.getElementById('9');
+const item9 = document.getElementById('ml_556');
 item9.addEventListener('click', () => {
     harga = '134.600';
 
@@ -119,7 +119,7 @@ item9.addEventListener('click', () => {
     }
 })
 
-const item8 = document.getElementById('8');
+const item8 = document.getElementById('ml_429');
 item8.addEventListener('click', () => {
     harga = '103.400';
 
@@ -130,7 +130,7 @@ item8.addEventListener('click', () => {
     }
 })
 
-const item7 = document.getElementById('7');
+const item7 = document.getElementById('ml_344');
 item7.addEventListener('click', () => {
     harga = '84.100';
 
@@ -141,7 +141,7 @@ item7.addEventListener('click', () => {
     }
 })
 
-const item6 = document.getElementById('6');
+const item6 = document.getElementById('ml_257');
 item6.addEventListener('click', () => {
     harga = '61.800';
 
@@ -152,7 +152,7 @@ item6.addEventListener('click', () => {
     }
 })
 
-const item5 = document.getElementById('5');
+const item5 = document.getElementById('ml_172');
 item5.addEventListener('click', () => {
     harga = '42.700';
 
@@ -163,7 +163,7 @@ item5.addEventListener('click', () => {
     }
 })
 
-const item4 = document.getElementById('4');
+const item4 = document.getElementById('ml_86');
 item4.addEventListener('click', () => {
     harga = '21.300';
 
@@ -174,7 +174,7 @@ item4.addEventListener('click', () => {
     }
 })
 
-const item3 = document.getElementById('3');
+const item3 = document.getElementById('ml_twilight');
 item3.addEventListener('click', () => {
     harga = '134.800';
 
@@ -185,7 +185,7 @@ item3.addEventListener('click', () => {
     }
 })
 
-const item2 = document.getElementById('2');
+const item2 = document.getElementById('ml_starlightPlus');
 item2.addEventListener('click', () => {
     harga = '305.800';
 
@@ -196,7 +196,7 @@ item2.addEventListener('click', () => {
     }
 })
 
-const item1 = document.getElementById('1');
+const item1 = document.getElementById('ml_starlight');
 item1.addEventListener('click', () => {
     harga = '117.000';
 
