@@ -9,7 +9,7 @@ bri_Va.addEventListener('click', () => {
     harga = '120.000';
 
     if (bri_Va.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -20,7 +20,7 @@ bri_Va2.addEventListener('click', () => {
     harga = '320.000';
 
     if (bri_Va2.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -31,7 +31,7 @@ bri_Va3.addEventListener('click', () => {
     harga = '140.500';
 
     if (bri_Va3.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -42,7 +42,7 @@ bri_Va4.addEventListener('click', () => {
     harga = '22.600';
 
     if (bri_Va4.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -53,7 +53,7 @@ bri_Va5.addEventListener('click', () => {
     harga = '45.800';
 
     if (bri_Va5.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -64,7 +64,7 @@ bri_Va6.addEventListener('click', () => {
     harga = '65.700';
 
     if (bri_Va6.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -75,7 +75,7 @@ bri_Va7.addEventListener('click', () => {
     harga = '85.600';
 
     if (bri_Va7.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -86,7 +86,7 @@ bri_Va8.addEventListener('click', () => {
     harga = '108.900';
 
     if (bri_Va8.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -97,7 +97,7 @@ bri_Va9.addEventListener('click', () => {
     harga = '138.760';
 
     if (bri_Va9.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -108,7 +108,7 @@ bri_Va10.addEventListener('click', () => {
     harga = '168.200';
 
     if (bri_Va10.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -119,7 +119,7 @@ bri_Va11.addEventListener('click', () => {
     harga = '170.800';
 
     if (bri_Va11.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -130,7 +130,7 @@ bri_Va12.addEventListener('click', () => {
     harga = '208.600';
 
     if (bri_Va12.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -141,7 +141,7 @@ bri_Va13.addEventListener('click', () => {
     harga = '235.400';
 
     if (bri_Va13.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -152,7 +152,7 @@ bri_Va14.addEventListener('click', () => {
     harga = '278.800';
 
     if (bri_Va14.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -163,7 +163,7 @@ bri_Va15.addEventListener('click', () => {
     harga = '332.860';
 
     if (bri_Va15.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -174,7 +174,7 @@ bri_Va16.addEventListener('click', () => {
     harga = '978.500';
 
     if (bri_Va16.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -185,7 +185,7 @@ bri_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
     if (bri_Va17.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -196,7 +196,7 @@ bri_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 
     if (bri_Va18.checked) {
-        briVa.textContent = textNominalbriVa + 'Rp.' + harga;
+        briVa.textContent = textNominalbriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })

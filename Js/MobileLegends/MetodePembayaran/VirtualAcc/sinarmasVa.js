@@ -9,7 +9,7 @@ sinarmas_Va.addEventListener('click', () => {
     harga = '120.000';
 
     if (sinarmas_Va.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -20,7 +20,7 @@ sinarmas_Va2.addEventListener('click', () => {
     harga = '320.000';
 
     if (sinarmas_Va2.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -31,7 +31,7 @@ sinarmas_Va3.addEventListener('click', () => {
     harga = '140.500';
 
     if (sinarmas_Va3.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -42,7 +42,7 @@ sinarmas_Va4.addEventListener('click', () => {
     harga = '22.600';
 
     if (sinarmas_Va4.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -53,7 +53,7 @@ sinarmas_Va5.addEventListener('click', () => {
     harga = '45.800';
 
     if (sinarmas_Va5.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -64,7 +64,7 @@ sinarmas_Va6.addEventListener('click', () => {
     harga = '65.700';
 
     if (sinarmas_Va6.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -75,7 +75,7 @@ sinarmas_Va7.addEventListener('click', () => {
     harga = '85.600';
 
     if (sinarmas_Va7.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -86,7 +86,7 @@ sinarmas_Va8.addEventListener('click', () => {
     harga = '108.900';
 
     if (sinarmas_Va8.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -97,7 +97,7 @@ sinarmas_Va9.addEventListener('click', () => {
     harga = '138.760';
 
     if (sinarmas_Va9.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -108,7 +108,7 @@ sinarmas_Va10.addEventListener('click', () => {
     harga = '168.200';
 
     if (sinarmas_Va10.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -119,7 +119,7 @@ sinarmas_Va11.addEventListener('click', () => {
     harga = '170.800';
 
     if (sinarmas_Va11.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -130,7 +130,7 @@ sinarmas_Va12.addEventListener('click', () => {
     harga = '208.600';
 
     if (sinarmas_Va12.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -141,7 +141,7 @@ sinarmas_Va13.addEventListener('click', () => {
     harga = '235.400';
 
     if (sinarmas_Va13.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -152,7 +152,7 @@ sinarmas_Va14.addEventListener('click', () => {
     harga = '278.800';
 
     if (sinarmas_Va14.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -163,7 +163,7 @@ sinarmas_Va15.addEventListener('click', () => {
     harga = '332.860';
 
     if (sinarmas_Va15.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -174,7 +174,7 @@ sinarmas_Va16.addEventListener('click', () => {
     harga = '978.500';
 
     if (sinarmas_Va16.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -185,7 +185,7 @@ sinarmas_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
     if (sinarmas_Va17.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -196,7 +196,7 @@ sinarmas_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 
     if (sinarmas_Va18.checked) {
-        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp.' + harga;
+        sinarmasVa.textContent = textNominalsinarmasVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })

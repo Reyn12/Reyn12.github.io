@@ -9,7 +9,7 @@ bca_Va.addEventListener('click', () => {
     harga = '120.000';
 
     if (bca_Va.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -20,7 +20,7 @@ bca_Va2.addEventListener('click', () => {
     harga = '320.000';
 
     if (bca_Va2.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -31,7 +31,7 @@ bca_Va3.addEventListener('click', () => {
     harga = '140.500';
 
     if (bca_Va3.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -42,7 +42,7 @@ bca_Va4.addEventListener('click', () => {
     harga = '22.600';
 
     if (bca_Va4.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -53,7 +53,7 @@ bca_Va5.addEventListener('click', () => {
     harga = '45.800';
 
     if (bca_Va5.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -64,7 +64,7 @@ bca_Va6.addEventListener('click', () => {
     harga = '65.700';
 
     if (bca_Va6.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -75,7 +75,7 @@ bca_Va7.addEventListener('click', () => {
     harga = '85.600';
 
     if (bca_Va7.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -86,7 +86,7 @@ bca_Va8.addEventListener('click', () => {
     harga = '108.900';
 
     if (bca_Va8.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -97,7 +97,7 @@ bca_Va9.addEventListener('click', () => {
     harga = '138.760';
 
     if (bca_Va9.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -108,7 +108,7 @@ bca_Va10.addEventListener('click', () => {
     harga = '168.200';
 
     if (bca_Va10.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -119,7 +119,7 @@ bca_Va11.addEventListener('click', () => {
     harga = '170.800';
 
     if (bca_Va11.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -130,7 +130,7 @@ bca_Va12.addEventListener('click', () => {
     harga = '208.600';
 
     if (bca_Va12.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -141,7 +141,7 @@ bca_Va13.addEventListener('click', () => {
     harga = '235.400';
 
     if (bca_Va13.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -152,7 +152,7 @@ bca_Va14.addEventListener('click', () => {
     harga = '278.800';
 
     if (bca_Va14.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -163,7 +163,7 @@ bca_Va15.addEventListener('click', () => {
     harga = '332.860';
 
     if (bca_Va15.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -174,7 +174,7 @@ bca_Va16.addEventListener('click', () => {
     harga = '978.500';
 
     if (bca_Va16.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -185,7 +185,7 @@ bca_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
     if (bca_Va17.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -196,7 +196,7 @@ bca_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 
     if (bca_Va18.checked) {
-        bcaVa.textContent = textNominalbcaVa + 'Rp.' + harga;
+        bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })

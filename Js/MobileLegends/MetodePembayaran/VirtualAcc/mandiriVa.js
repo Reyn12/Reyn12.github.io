@@ -9,7 +9,7 @@ mandiri_Va.addEventListener('click', () => {
     harga = '120.000';
 
     if (mandiri_Va.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -20,7 +20,7 @@ mandiri_Va2.addEventListener('click', () => {
     harga = '320.000';
 
     if (mandiri_Va2.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -31,7 +31,7 @@ mandiri_Va3.addEventListener('click', () => {
     harga = '140.500';
 
     if (mandiri_Va3.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -42,7 +42,7 @@ mandiri_Va4.addEventListener('click', () => {
     harga = '22.600';
 
     if (mandiri_Va4.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -53,7 +53,7 @@ mandiri_Va5.addEventListener('click', () => {
     harga = '45.800';
 
     if (mandiri_Va5.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -64,7 +64,7 @@ mandiri_Va6.addEventListener('click', () => {
     harga = '65.700';
 
     if (mandiri_Va6.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -75,7 +75,7 @@ mandiri_Va7.addEventListener('click', () => {
     harga = '85.600';
 
     if (mandiri_Va7.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -86,7 +86,7 @@ mandiri_Va8.addEventListener('click', () => {
     harga = '108.900';
 
     if (mandiri_Va8.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -97,7 +97,7 @@ mandiri_Va9.addEventListener('click', () => {
     harga = '138.760';
 
     if (mandiri_Va9.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -108,7 +108,7 @@ mandiri_Va10.addEventListener('click', () => {
     harga = '168.200';
 
     if (mandiri_Va10.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -119,7 +119,7 @@ mandiri_Va11.addEventListener('click', () => {
     harga = '170.800';
 
     if (mandiri_Va11.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -130,7 +130,7 @@ mandiri_Va12.addEventListener('click', () => {
     harga = '208.600';
 
     if (mandiri_Va12.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -141,7 +141,7 @@ mandiri_Va13.addEventListener('click', () => {
     harga = '235.400';
 
     if (mandiri_Va13.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -152,7 +152,7 @@ mandiri_Va14.addEventListener('click', () => {
     harga = '278.800';
 
     if (mandiri_Va14.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -163,7 +163,7 @@ mandiri_Va15.addEventListener('click', () => {
     harga = '332.860';
 
     if (mandiri_Va15.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -174,7 +174,7 @@ mandiri_Va16.addEventListener('click', () => {
     harga = '978.500';
 
     if (mandiri_Va16.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -185,7 +185,7 @@ mandiri_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
     if (mandiri_Va17.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -196,7 +196,7 @@ mandiri_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 
     if (mandiri_Va18.checked) {
-        mandiriVa.textContent = textNominalmandiriVa + 'Rp.' + harga;
+        mandiriVa.textContent = textNominalmandiriVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })

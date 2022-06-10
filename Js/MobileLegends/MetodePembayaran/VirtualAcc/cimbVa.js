@@ -9,7 +9,7 @@ cimb_Va.addEventListener('click', () => {
     harga = '120.000';
 
     if (cimb_Va.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -20,7 +20,7 @@ cimb_Va2.addEventListener('click', () => {
     harga = '320.000';
 
     if (cimb_Va2.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -31,7 +31,7 @@ cimb_Va3.addEventListener('click', () => {
     harga = '140.500';
 
     if (cimb_Va3.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -42,7 +42,7 @@ cimb_Va4.addEventListener('click', () => {
     harga = '22.600';
 
     if (cimb_Va4.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -53,7 +53,7 @@ cimb_Va5.addEventListener('click', () => {
     harga = '45.800';
 
     if (cimb_Va5.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -64,7 +64,7 @@ cimb_Va6.addEventListener('click', () => {
     harga = '65.700';
 
     if (cimb_Va6.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -75,7 +75,7 @@ cimb_Va7.addEventListener('click', () => {
     harga = '85.600';
 
     if (cimb_Va7.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -86,7 +86,7 @@ cimb_Va8.addEventListener('click', () => {
     harga = '108.900';
 
     if (cimb_Va8.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -97,7 +97,7 @@ cimb_Va9.addEventListener('click', () => {
     harga = '138.760';
 
     if (cimb_Va9.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -108,7 +108,7 @@ cimb_Va10.addEventListener('click', () => {
     harga = '168.200';
 
     if (cimb_Va10.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -119,7 +119,7 @@ cimb_Va11.addEventListener('click', () => {
     harga = '170.800';
 
     if (cimb_Va11.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -130,7 +130,7 @@ cimb_Va12.addEventListener('click', () => {
     harga = '208.600';
 
     if (cimb_Va12.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -141,7 +141,7 @@ cimb_Va13.addEventListener('click', () => {
     harga = '235.400';
 
     if (cimb_Va13.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -152,7 +152,7 @@ cimb_Va14.addEventListener('click', () => {
     harga = '278.800';
 
     if (cimb_Va14.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -163,7 +163,7 @@ cimb_Va15.addEventListener('click', () => {
     harga = '332.860';
 
     if (cimb_Va15.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -174,7 +174,7 @@ cimb_Va16.addEventListener('click', () => {
     harga = '978.500';
 
     if (cimb_Va16.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -185,7 +185,7 @@ cimb_Va17.addEventListener('click', () => {
     harga = '1.248.100';
 
     if (cimb_Va17.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
@@ -196,7 +196,7 @@ cimb_Va18.addEventListener('click', () => {
     harga = "2.075.700";
 
     if (cimb_Va18.checked) {
-        cimbVa.textContent = textNominalcimbVa + 'Rp.' + harga;
+        cimbVa.textContent = textNominalcimbVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
     }
 })
