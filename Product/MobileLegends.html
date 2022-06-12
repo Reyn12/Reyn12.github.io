@@ -839,8 +839,13 @@
                             <div class="header short-payment-support-info-head">
                                 <div class="card-header">
                                     <div class="left">
-                                        <b>
-                                            <i class="fas fa-wallet" style="padding-left: 2px;"></i> E-Wallet
+                                        <b class="row">
+                                            <div class="col-6">
+                                                <i class="fas fa-landmark" style="padding-left: 2px;"></i> E-Wallet
+                                            </div>
+                                            <div class="col-6">
+                                                <p class="text-end" id="e_Wallet"></p>
+                                            </div>
                                         </b>
                                     </div>
                                     <div class="row row-cols-2 row-cols-md-3 p-1">
@@ -852,7 +857,13 @@
                                                     <div class="payment_inner p-3">
                                                         <div class="tickmark"></div>
                                                         <div class="img mb-3">
-                                                            <img style="width:45px;" src="../Assets/assets_1/logo-ovo.png">
+                                                            <div class="row align-items-center justify-content-between d-flex">
+                                                                <div class="col-3">
+                                                                <img style="width:45px;" src="../Assets/assets_1/logo-ovo.png"class="me-auto">
+                                                                </div>
+                                                                <i class="col-8 offset-1 d-flex text-end" id="ovoEwallet">
+                                                                </i>
+                                                            </div>
                                                         </div>
                                                         <div class="name" style="font-size: 12px">OVO</div>
                                                     </div>
@@ -1128,6 +1139,7 @@
     <script src="../Js/MobileLegends/MetodePembayaran/VirtualAcc/sinarmasVa.js"></script>
     <script src="../Js/MobileLegends/MetodePembayaran/VirtualAcc/cimbVa.js"></script>
     <script src="../Js/MobileLegends/MetodePembayaran/VirtualAcc/bsiVa.js"></script>
+    <script src="../Js/MobileLegends/MetodePembayaran/Ewallet/ovo.js"></script>
 
     <!-- scipt noInput -->
     <script src="../Js/MobileLegends/Conflig/noInput.js"></script>
