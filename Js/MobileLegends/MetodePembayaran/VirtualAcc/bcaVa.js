@@ -1,3 +1,23 @@
+// untuk semua
+// let valueItem1 = document.getElementById('valueItem1');
+// let valueItem2 = document.getElementById('valueItem2');
+// let valueItem3 = document.getElementById('valueItem3');
+// let valueItem4 = document.getElementById('valueItem4');
+// let valueItem5 = document.getElementById('valueItem5');
+// let valueItem6 = document.getElementById('valueItem6');
+// let valueItem7 = document.getElementById('valueItem7');
+// let valueItem8 = document.getElementById('valueItem8');
+// let valueItem9 = document.getElementById('valueItem9');
+// let valueItem10 = document.getElementById('valueItem10');
+// let valueItem11 = document.getElementById('valueItem11');
+// let valueItem12 = document.getElementById('valueItem12');
+// let valueItem13 = document.getElementById('valueItem13');
+// let valueItem14 = document.getElementById('valueItem14');
+// let valueItem15 = document.getElementById('valueItem15');
+// let valueItem16 = document.getElementById('valueItem16');
+// let valueItem17 = document.getElementById('valueItem17');
+// let valueItem18 = document.getElementById('valueItem18');
+
 // Virtual Account
 // bcaVa
 const bcaVa = document.getElementById('bcaVa');
@@ -11,6 +31,7 @@ bca_Va.addEventListener('click', () => {
     if (bca_Va.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "Starlight Member + 26 Diamonds (Promo)";
     }
 })
 
@@ -22,6 +43,7 @@ bca_Va2.addEventListener('click', () => {
     if (bca_Va2.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "Starlight Member Plus (Promo)";
     }
 })
 
@@ -33,6 +55,7 @@ bca_Va3.addEventListener('click', () => {
     if (bca_Va3.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "Twilight Pass (Promo)";
     }
 })
 
@@ -44,6 +67,7 @@ bca_Va4.addEventListener('click', () => {
     if (bca_Va4.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "86 Diamonds (78+8)";
     }
 })
 
@@ -55,6 +79,7 @@ bca_Va5.addEventListener('click', () => {
     if (bca_Va5.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "172 Diamonds (156+16)";
     }
 })
 
@@ -66,6 +91,7 @@ bca_Va6.addEventListener('click', () => {
     if (bca_Va6.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "257 Diamonds (234+23)";
     }
 })
 
@@ -77,6 +103,7 @@ bca_Va7.addEventListener('click', () => {
     if (bca_Va7.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "344 Diamonds (312+32)";
     }
 })
 
@@ -88,6 +115,7 @@ bca_Va8.addEventListener('click', () => {
     if (bca_Va8.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "429 Diamonds (390+39)";
     }
 })
 
@@ -99,6 +127,7 @@ bca_Va9.addEventListener('click', () => {
     if (bca_Va9.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "556 Diamonds (506+50)";
     }
 })
 
@@ -110,6 +139,7 @@ bca_Va10.addEventListener('click', () => {
     if (bca_Va10.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "706 Diamonds (625+81)";
     }
 })
 
@@ -121,6 +151,7 @@ bca_Va11.addEventListener('click', () => {
     if (bca_Va11.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "720 Diamonds (638+82)";
     }
 })
 
@@ -132,6 +163,7 @@ bca_Va12.addEventListener('click', () => {
     if (bca_Va12.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "878 Diamonds (781+97)";
     }
 })
 
@@ -143,6 +175,7 @@ bca_Va13.addEventListener('click', () => {
     if (bca_Va13.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "977 Diamonds (872+105)";
     }
 })
 
@@ -154,6 +187,7 @@ bca_Va14.addEventListener('click', () => {
     if (bca_Va14.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "1163 Diamonds (1041+122)";
     }
 })
 
@@ -165,6 +199,7 @@ bca_Va15.addEventListener('click', () => {
     if (bca_Va15.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "1412 Diamonds (1250+162)";
     }
 })
 
@@ -176,6 +211,7 @@ bca_Va16.addEventListener('click', () => {
     if (bca_Va16.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "4394 Diamonds (3724+670)";
     }
 })
 
@@ -187,6 +223,7 @@ bca_Va17.addEventListener('click', () => {
     if (bca_Va17.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "5534 Diamonds (4744+790)";
     }
 })
 
@@ -198,5 +235,6 @@ bca_Va18.addEventListener('click', () => {
     if (bca_Va18.checked) {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
+        valueItem.textContent = "9302 Diamonds (7822+1480)";
     }
 })

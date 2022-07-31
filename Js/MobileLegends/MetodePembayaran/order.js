@@ -3,7 +3,7 @@ let IDserver = document.getElementById("IDserver");
 let Order = document.getElementById("Order");
 let valueID = document.getElementById("valueID");
 let valueSERVER = document.getElementById("valueSERVER");
-let valueNominal = document.getElementById("valueNominal");
+let valueItem = document.getElementById("valueItem");
 
 function listOrder() {
   console.log("tes");

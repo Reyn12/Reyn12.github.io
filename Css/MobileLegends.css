@@ -210,3 +210,9 @@ body {
     }
   }
 /* end payment responsive */
+
+/* order start */
+.modal-body{
+  text-align: center;
+}
+/* end order */
