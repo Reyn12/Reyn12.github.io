@@ -1,11 +1,12 @@
-let inputID =  document.getElementById("inputID")
-let IDserver =  document.getElementById("IDserver")
-let Order =  document.getElementById("Order")
-let valueID = document.getElementById("valueID")
-let valueSERVER = document.getElementById("valueSERVER")
+let inputID = document.getElementById("inputID");
+let IDserver = document.getElementById("IDserver");
+let Order = document.getElementById("Order");
+let valueID = document.getElementById("valueID");
+let valueSERVER = document.getElementById("valueSERVER");
+let valueNominal = document.getElementById("valueNominal");
 
 function listOrder() {
-    console.log("tes")
-    valueID.textContent = inputID.value
-    valueSERVER.textContent = IDserver.value
+  console.log("tes");
+  valueID.textContent = inputID.value;
+  valueSERVER.textContent = IDserver.value;
 }
