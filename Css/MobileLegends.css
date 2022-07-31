@@ -8,6 +8,10 @@
   color: var(--secondaryColor);
 }
 
+.bgSecondaryColor {
+  background-color: var(--secondaryColor);
+}
+
 body {
   background-color: #eaeaea;
   font-family: "Poppins", sans-serif;
