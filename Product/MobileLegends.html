@@ -294,7 +294,7 @@
                                                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                         </div>
                                                         <div class="modal-body">
-                                                            <img src="../Assets/assets_1/logo-bca.png" alt="" width="100%" height="90px">
+                                                            <img src="../Assets/assets_1/akun-ml.jpeg" alt="" width="100%" height="90px">
                                                         </div>
                                                         <div class="modal-footer">
                                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -590,7 +590,7 @@
                                                             </i>
                                                         </div>
                                                     </div>
-                                                    <div class="name" style="font-size: 12px">Bank Central Asia (BCA) </div>
+                                                    <div class="name" style="font-size: 12px" id="valuePAYMENT1">Bank Central Asia (BCA) </div>
                                                 </div>
                                             </label>
                                         </div>
@@ -610,7 +610,7 @@
                                                             </i>
                                                         </div>
                                                     </div>
-                                                    <div class="name" style="font-size: 10px" >Bank Negara Indonesia (BNI)</div>
+                                                    <div class="name" style="font-size: 10px" id="valuePAYMENT2">Bank Negara Indonesia (BNI)</div>
                                                 </div>
                                             </label>
                                         </div>
@@ -672,7 +672,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">Maybank Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT3">Maybank Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -693,7 +693,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">Permata Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT4">Permata Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -714,7 +714,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">BNI Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT5">BNI Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -735,7 +735,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">BRI Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT6">BRI Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -756,7 +756,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">Mandiri Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT7">Mandiri Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -777,7 +777,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">BCA Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT8">BCA Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -792,14 +792,13 @@
                                                         <div class="img mb-3">
                                                             <div class="row align-items-center justify-content-between d-flex">
                                                                 <div class="col-3">
-                                                                    <img style="width:40px;" src="../Assets/assets_1/logo-bni-va.png">
+                                                                    <img style="width:40px;" src="../Assets/assets_1/logo-sinarmas-va.png">
                                                                 </div>
                                                                 <i class="col-8 offset-1 d-flex text-md-end" id="sinarmasVa">
                                                                 </i>
                                                             </div>
-                                                            <img style="width:40px;" src="../Assets/assets_1/logo-sinarmas-va.png">
                                                         </div>
-                                                        <div class="name" style="font-size: 11px">Sinarmas Virtual Account</div>
+                                                        <div class="name" style="font-size: 11px" id="valuePAYMENT9">Sinarmas Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -820,7 +819,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">CIMB Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT10">CIMB Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -841,7 +840,7 @@
                                                                 </i>
                                                             </div>
                                                         </div>
-                                                        <div class="name" style="font-size: 12px">BSI Virtual Account</div>
+                                                        <div class="name" style="font-size: 12px" id="valuePAYMENT11">BSI Virtual Account</div>
                                                     </div>
                                                 </label>
                                             </div>
@@ -864,7 +863,7 @@
                                     <div class="left">
                                         <b class="row">
                                             <div class="col-6">
-                                                <i class="fas fa-landmark" style="padding-left: 2px;"></i> E-Wallet
+                                                <i class="fas fa-landmark" style="padding-left: 2px;" id="valuePAYMENT3"></i> E-Wallet
                                             </div>
                                             <div class="col-6">
                                                 <p class="text-end" id="e_Wallet"></p>
@@ -894,59 +893,62 @@
                                             </div>
                                         </div>
 
-                                        <div class="col-lg-4 p-1">
+                                         <div class="col-lg-4 p-1">
                                             <div class="list-group shadow payment">
-                                                <label class="payment_item" for="m">
-                                                    <input type="radio" name="payment" id="m" class="checkbox">
+                                                <label class="payment_item" for="2">
+                                                    <input type="radio" name="payment" id="2" class="checkbox">
                                                     <div class="payment_inner p-3">
                                                         <div class="tickmark"></div>
                                                         <div class="img mb-3">
-                                                            <img style="width:45px;" src="../Assets/assets_1/logo-shopeepay.png">
+                                                            <div class="row align-items-center justify-content-between d-flex">
+                                                                <div class="col-3">
+                                                                <img style="width:45px;" src="../Assets/assets_1/logo-shopeepay.png"class="me-auto">
+                                                                </div>
+                                                                <i class="col-8 offset-1 d-flex text-end" id="shopeeEwallet">
+                                                                </i>
+                                                            </div>
                                                         </div>
                                                         <div class="name" style="font-size: 12px">QRIS (ShopeePay)</div>
                                                     </div>
                                                 </label>
                                             </div>
                                         </div>
-                
+
                                         <div class="col-lg-4 p-1">
                                             <div class="list-group shadow payment">
-                                                <label class="payment_item" for="o">
-                                                    <input type="radio" name="payment" id="o" class="checkbox">
+                                                <label class="payment_item" for="3">
+                                                    <input type="radio" name="payment" id="3" class="checkbox">
                                                     <div class="payment_inner p-3">
                                                         <div class="tickmark"></div>
                                                         <div class="img mb-3">
-                                                            <img style="width:45px;" src="../Assets/assets_1/logo-qris.png">
-                                                        </div>
-                                                        <div class="name" style="font-size: 12px">Semua aplikasi Scan QR</div>
-                                                    </div>
-                                                </label>
-                                            </div>
-                                        </div>
-                
-                                        <div class="col-lg-4 p-1">
-                                            <div class="list-group shadow payment">
-                                                <label class="payment_item" for="p">
-                                                    <input type="radio" name="payment" id="p" class="checkbox">
-                                                    <div class="payment_inner p-3">
-                                                        <div class="tickmark"></div>
-                                                        <div class="img mb-3">
-                                                            <img style="width:45px;" src="../Assets/assets_1/logo-dana.png">
+                                                            <div class="row align-items-center justify-content-between d-flex">
+                                                                <div class="col-3">
+                                                                <img style="width:45px;" src="../Assets/assets_1/logo-dana.png"class="me-auto">
+                                                                </div>
+                                                                <i class="col-8 offset-1 d-flex text-end" id="danaEwallet">
+                                                                </i>
+                                                            </div>
                                                         </div>
                                                         <div class="name" style="font-size: 12px">QRIS (DANA)</div>
                                                     </div>
                                                 </label>
                                             </div>
                                         </div>
-                
-                                        <div class="col-lg-4 p-1">
+
+                                                                                <div class="col-lg-4 p-1">
                                             <div class="list-group shadow payment">
-                                                <label class="payment_item" for="q">
-                                                    <input type="radio" name="payment" id="q" class="checkbox">
+                                                <label class="payment_item" for="4">
+                                                    <input type="radio" name="payment" id="4" class="checkbox">
                                                     <div class="payment_inner p-3">
                                                         <div class="tickmark"></div>
                                                         <div class="img mb-3">
-                                                            <img style="width:20px;" src="../Assets/assets_1/logo-linkaja.png">
+                                                            <div class="row align-items-center justify-content-between d-flex">
+                                                                <div class="col-3">
+                                                                <img style="width:20px;" src="../Assets/assets_1/logo-linkaja.png"class="me-auto">
+                                                                </div>
+                                                                <i class="col-8 offset-1 d-flex text-end" id="linkajaEwallet">
+                                                                </i>
+                                                            </div>
                                                         </div>
                                                         <div class="name" style="font-size: 12px">LINK AJA</div>
                                                     </div>
@@ -970,7 +972,7 @@
                                 <div class="card-header">
                                     <div class="left">
                                         <b>
-                                            <i class="fas fa-store" style="padding-left: 2px;"></i> Convenience Store
+                                            <i class="fas fa-store" style="padding-left: 2px;" id="valuePAYMENT4"></i> Convenience Store
                                         </b>
                                     </div>
                                     <div class="row row-cols-2 row-cols-md-3 p-1">
@@ -1081,7 +1083,14 @@
                                 <div class="modal-dialog">
                                 <div class="modal-content">
                                     <div class="modal-body">
-                                        <h5 class="modal-title" id="exampleModalLabel">Create Order</h5>
+                                        <h5 class="modal-title mb-3" id="exampleModalLabel">Create Order</h5>
+                                        <div class="row">
+                                            <div class="col-6 text-end">
+                                                <p>Game Detail :</p>
+                                            </div>
+                                            <div class="col-6 text-start"><i><b>Mobile Legends</b></i>
+                                            </div>
+                                        </div>
                                         <div class="row">
                                             <div class="col-6 text-end">
                                                 <p>ID :</p>
@@ -1103,6 +1112,14 @@
                                             </div>
                                             <div class="col-6 text-start">
                                                 <i id="valueItem"></i>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-6 text-end">
+                                                <p>Payment :</p>
+                                            </div>
+                                            <div class="col-6 text-start">
+                                                <i id="valuePAYMENT"></i>
                                             </div>
                                         </div>
                                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
@@ -1210,6 +1227,11 @@
     <script src="../Js/MobileLegends/MetodePembayaran/VirtualAcc/cimbVa.js"></script>
     <script src="../Js/MobileLegends/MetodePembayaran/VirtualAcc/bsiVa.js"></script>
     <script src="../Js/MobileLegends/MetodePembayaran/Ewallet/ovo.js"></script>
+    <script src="../Js/MobileLegends/MetodePembayaran/Ewallet/shopee.js"></script>
+    <script src="../Js/MobileLegends/MetodePembayaran/Ewallet/dana.js"></script>
+    <script src="../Js/MobileLegends/MetodePembayaran/Ewallet/linkaja.js"></script>
+
+
 
     <!-- scipt noInput -->
     <script src="../Js/MobileLegends/Conflig/noInput.js"></script>

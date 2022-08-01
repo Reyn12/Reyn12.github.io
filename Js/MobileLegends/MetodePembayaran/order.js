@@ -4,6 +4,7 @@ let Order = document.getElementById("Order");
 let valueID = document.getElementById("valueID");
 let valueSERVER = document.getElementById("valueSERVER");
 let valueItem = document.getElementById("valueItem");
+let valuePAYMENT = document.getElementById("valuePAYMENT");
 
 function listOrder() {
   console.log("tes");
