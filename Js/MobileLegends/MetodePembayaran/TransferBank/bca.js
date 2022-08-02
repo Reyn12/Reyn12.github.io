@@ -8,6 +8,9 @@ const nominal_bca = document.getElementById('nominal_bca');
 let harga = 0;
 const textnominal_bca = nominal_bca.textContent; // biar presist 
 
+// Payment BCA
+const bcaPayment = document.getElementById('bca')
+
 const item18 = document.getElementById('ml_9302');
 item18.addEventListener('click', () => {
     harga = '2.016.000';
@@ -16,6 +19,10 @@ item18.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "9302 Diamonds (7822+1480)";
+    }
+    if (item18.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
     
 })
@@ -28,6 +35,10 @@ item17.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "5534 Diamonds (4744+790)";
+    }
+    if (item17.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -39,6 +50,10 @@ item16.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "4394 Diamonds (3724+670)";
+    }
+    if (item16.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -50,6 +65,10 @@ item15.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "1412 Diamonds (1250+162)";
+    }
+    if (item15.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -61,6 +80,10 @@ item14.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "1163 Diamonds (1041+122)";
+    }
+    if (item14.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -72,6 +95,10 @@ item13.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "977 Diamonds (872+105)";
+    }
+    if (item13.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -83,6 +110,10 @@ item12.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "878 Diamonds (781+97)";
+    }
+    if (item12.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -94,6 +125,10 @@ item11.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "720 Diamonds (638+82)";
+    }
+    if (item11.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -105,6 +140,10 @@ item10.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "706 Diamonds (625+81)";
+    }
+    if (item10.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -116,6 +155,10 @@ item9.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "556 Diamonds (506+50)";
+    }
+    if (item9.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -127,6 +170,10 @@ item8.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "429 Diamonds (390+39)";
+    }
+    if (item8.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -138,6 +185,10 @@ item7.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "344 Diamonds (312+32)";
+    }
+    if (item7.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -149,6 +200,10 @@ item6.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "257 Diamonds (234+23)";
+    }
+    if (item18.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -160,6 +215,10 @@ item5.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "172 Diamonds (156+16)";
+    }
+    if (item5.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -171,6 +230,10 @@ item4.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "86 Diamonds (78+8)";
+    }
+    if (item4.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -182,6 +245,10 @@ item3.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "Twilight Pass (Promo)";
+    }
+    if (item3.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -193,6 +260,10 @@ item2.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "Starlight Member Plus (Promo)";
+    }
+    if (item2.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })
 
@@ -204,5 +275,9 @@ item1.addEventListener('click', () => {
         nominal_bca.textContent = textnominal_bca + 'Rp ' + harga;
         bank.textContent = textnominal_bca + 'Rp ' + harga;
         harga = 0;
+        valueItem.textContent = "Starlight Member + 26 Diamonds (Promo)";
+    }
+    if (item1.checked && bcaPayment.checked) {
+        valuePAYMENT.textContent = "Bank Central Asia (BCA)"
     }
 })

@@ -23,6 +23,9 @@
 const bcaVa = document.getElementById('bcaVa');
 const textNominalbcaVa = bcaVa.textContent; // biar presist
 
+// Payment BCA
+const bcaVaPayment = document.getElementById('h')
+
 // 1
 const bca_Va = document.getElementById('ml_starlight');
 bca_Va.addEventListener('click', () => {
@@ -32,6 +35,9 @@ bca_Va.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "Starlight Member + 26 Diamonds (Promo)";
+    }
+    if (bca_Va.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -45,6 +51,9 @@ bca_Va2.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "Starlight Member Plus (Promo)";
     }
+    if (bca_Va2.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 3
@@ -56,6 +65,9 @@ bca_Va3.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "Twilight Pass (Promo)";
+    }
+    if (bca_Va3.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -69,6 +81,9 @@ bca_Va4.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "86 Diamonds (78+8)";
     }
+    if (bca_Va4.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 5
@@ -80,6 +95,9 @@ bca_Va5.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "172 Diamonds (156+16)";
+    }
+    if (bca_Va5.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -93,6 +111,9 @@ bca_Va6.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "257 Diamonds (234+23)";
     }
+    if (bca_Va6.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 7
@@ -104,6 +125,9 @@ bca_Va7.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "344 Diamonds (312+32)";
+    }
+    if (bca_Va7.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -117,6 +141,9 @@ bca_Va8.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "429 Diamonds (390+39)";
     }
+    if (bca_Va8.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 9
@@ -128,6 +155,9 @@ bca_Va9.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "556 Diamonds (506+50)";
+    }
+    if (bca_Va9.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -141,6 +171,9 @@ bca_Va10.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "706 Diamonds (625+81)";
     }
+    if (bca_Va10.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 11
@@ -152,6 +185,9 @@ bca_Va11.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "720 Diamonds (638+82)";
+    }
+    if (bca_Va11.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -165,6 +201,9 @@ bca_Va12.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "878 Diamonds (781+97)";
     }
+    if (bca_Va12.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 13
@@ -176,6 +215,9 @@ bca_Va13.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "977 Diamonds (872+105)";
+    }
+    if (bca_Va13.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -189,6 +231,9 @@ bca_Va14.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "1163 Diamonds (1041+122)";
     }
+    if (bca_Va14.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 15
@@ -200,6 +245,9 @@ bca_Va15.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "1412 Diamonds (1250+162)";
+    }
+    if (bca_Va15.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
 
@@ -213,6 +261,9 @@ bca_Va16.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "4394 Diamonds (3724+670)";
     }
+    if (bca_Va16.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 17
@@ -225,6 +276,9 @@ bca_Va17.addEventListener('click', () => {
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "5534 Diamonds (4744+790)";
     }
+    if (bca_Va17.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
+    }
 })
 
 // 18
@@ -236,5 +290,8 @@ bca_Va18.addEventListener('click', () => {
         bcaVa.textContent = textNominalbcaVa + 'Rp ' + harga;
         harga = 0; // set ulang biar g nimpa 
         valueItem.textContent = "9302 Diamonds (7822+1480)";
+    }
+    if (bca_Va18.checked && bcaVaPayment.checked) {
+        valuePAYMENT.textContent = "BCA Virtual Account"
     }
 })
